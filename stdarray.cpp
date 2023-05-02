@@ -7,7 +7,6 @@ using std::find_if;
 using size = std::size_t;
 using std::array;
 
-
 template<size_t size>
 
 void better_f(array<int, size>& arr) {}
