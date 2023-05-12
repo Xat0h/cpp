@@ -1,14 +1,15 @@
 #include <iostream>
 
-int doubleNumber(int num) {
-    return num * 2;
+int doubleNumber(int input)
+{
+    return 2 * input;
 }
 
-int main() {
-    std::cout << "Enter an integer to be doubled: \n";
-    int input;
+int main()
+{
+    int input{};
+    std::cout << "Enter an integer to be doubled" << std::endl;
     std::cin >> input;
-    std::cout << doubleNumber(input);
-
+    std::cout << doubleNumber(input) << '\n';
     return 0;
 }
